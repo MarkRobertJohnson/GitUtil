@@ -1,0 +1,1 @@
+All helper and utility scripts for the GitUtil module
