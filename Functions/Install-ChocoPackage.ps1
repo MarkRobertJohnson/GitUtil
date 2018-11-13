@@ -6,7 +6,7 @@
         [string]$ChocoArgs,
         [ValidateSet('upgrade','install')]
         [string]$InstallType = 'upgrade',
-        [string]$Source = 'http://packages.development.eidpassport.com/nuget/Chocolatey'
+        [string]$Source
     )
     
     if($Source) {
